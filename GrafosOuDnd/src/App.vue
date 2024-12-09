@@ -78,7 +78,7 @@ export default {
 
   <div v-if="this.fim">
 
-    <h1>Pontuação final: {{ pontos }}/{{ tents }} ({{ 100*pontos/tents }})</h1>
+    <h1>Pontuação final: {{ pontos }}/{{ tents }} ({{ Math.floor(100*pontos/tents) }}%)</h1>
 
   </div>
 
