@@ -6,7 +6,8 @@ export function generateObject(){
 
     var obj = {
         nome: qualTipo==1? dnd[getRandomInt(0, dnd.length-1)]: grafos[getRandomInt(0, grafos.length-1)],
-        tipo: qualTipo==1?'dnd': 'grafos'
+        tipo: qualTipo==1?'dnd': 'grafos',
+        tamanho: dnd.length + grafos.length - 2
     }
 
     return obj;
