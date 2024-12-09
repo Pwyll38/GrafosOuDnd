@@ -1,6 +1,6 @@
 export function generateObject(){
     const dnd =  ["Decomposição", "Guia", "Infestação", "On/Off", "Shilelah", "Comunar"];
-    const grafos = ["Feixo transitivo direto", "Kohn", "M-Maximal", "Isomorfo", "Homeomorfo", "Berge", "Emparelhamento máximo", "Simplex", "Planaridade", "Coloração de faces", "Guloso"]
+    const grafos = ["Feixo transitivo direto", "Kohn", "M-Maximal", "Isomorfo", "Homeomorfo", "Berge", "Emparelhamento máximo", "Simplex", "Planaridade", "Coloração de faces", "Guloso", "Aresta"]
     var qualTipo = getRandomInt(0,1)
     
 
